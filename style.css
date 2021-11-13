@@ -16,16 +16,17 @@ body {
 
 .content {
    display: flex;
-   width: 1200px;
+   max-width: 1200px;
    margin: auto;
 }
 
 .left-side {
-   width: 30%;
+   width: 50vh;
+   margin-bottom: 14px;
 }
 
 .right-side {
-   width: 70%;
+   width: 100vh;
 }
 
 .block-style {
@@ -52,7 +53,7 @@ body {
 }
 
 header {
-   min-width: 450px;
+   min-width: 400px;
    margin: auto;
 }
 
@@ -228,6 +229,43 @@ table tr td:first-child {
    width: 300px;
 }
 
+.message-block {
+   padding-left: 45px;
+}
+
 .message {
-   font-size: 30px;
+   font-size: 29px;
+}
+
+@media (max-width: 991px) {
+
+   .content {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .container {
+      margin-right: 0;
+   }
+
+   .left-side {
+      width: 768px;
+   }
+
+   .right-side {
+      width: 768px;
+   }
+
+}
+
+@media (max-width: 767px) {
+   
+   .left-side {
+      width: 576px;
+   }
+
+   .right-side {
+      width: 576px;
+   }
+
 }
