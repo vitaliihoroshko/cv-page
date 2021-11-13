@@ -7,7 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>CV | Vitalii Horoshko</title>
    <link rel="stylesheet" href="style.css">
-   <link rel="SHORTCUT ICON" type="image/jpg" href="docs/my-photo.jpg">
+   <link rel="SHORTCUT ICON" type="image/jpg" href="img/my-photo.jpg">
 </head>
 
 <body>
@@ -15,9 +15,10 @@
    <div class="content">
 
       <div class="left-side">
-         <div class="container">
+
+         <div class="container block-style">
             <h2>Vitalii Horoshko</h2>
-            <img src="docs/my-photo.jpg" alt="My Photo">
+            <img class="my-photo" src="img/my-photo.jpg" alt="My Photo">
             <table class="contacts">
                <tr class="contact-element">
                   <td><span>Objective:</span></td>
@@ -28,34 +29,141 @@
                   <td><span>24 February 1994</span></td>
                </tr>
                <tr class="contact-element">
+                  <td><span>Location:</span></td>
+                  <td><span>Lviv, Ukraine</span></td>
+               </tr>
+               <tr class="contact-element">
                   <td><span>Email:</span></td>
                   <td><a class="contact-link" href="mailto:vitaliihoroshko@gmail.com">vitaliihoroshko@gmail.com</a></td>
                </tr>
                <tr class="contact-element">
-                  <td><span>Telegram:</span></td>
-                  <td><a class="contact-link" href="https://t.me/vitaliihoroshko">@vitaliihoroshko</a></td>
+                  <td><span>Mobile:</span></td>
+                  <td><a class="contact-link" href="tel:380930274752">+380 (93) 027 47 52</a></td>
                </tr>
             </table>
+            <div class="social-icons">
+               <a class="icon-href" href="https://instagram.com/vitaliihoroshko" target="_blank">
+                  <img class="icon" src="img/instagram.svg" alt="Instagram">
+               </a>
+               <a class="icon-href" href="https://t.me/vitaliihoroshko" target="_blank">
+                  <img class="icon" src="img/telegram.svg" alt="Telegram">
+               </a>
+               <a class="icon-href" href="https://github.com/vitaliihoroshko" target="_blank">
+                  <img class="icon" src="img/github.svg" alt="GitHub">
+               </a>
+            </div>
          </div>
       </div>
 
       <div class="right-side">
-         <header>
+
+         <header class="block-style">
             <ul class="header-list">
-               <li><a class="" href="#information">Information</a></li>
-               <li><a class="" href="#skils">Skils</a></li>
-               <li><a class="" href="#education">Education</a></li>
-               <li><a class="" href="#working">Working</a></li>
+               <li><a class="home-btn pointer">Home</a></li>
+               <li><a class="working-btn pointer">Working History</a></li>
+               <li><a class="education-btn pointer">Education History</a></li>
+               <li><a class="skils-btn pointer">Skils</a></li>
+               <a class="icon-href"
+                  href="https://github.com/vitaliihoroshko/vitaliihoroshko.github.io/raw/main/docs/vitalii_horoshko_cv.pdf">
+                  <img class="pdf-icon" src="img/download-pdf.svg" alt="Download">
+               </a>
             </ul>
          </header>
 
          <main>
-            <div class="display-info">
 
+            <div class="home-info block-style">
+               <div class="message-block">
+                  <span class="message green">Hi there!
+                     <br>Use navigation to get
+                     <br>more information about me!</span>
+               </div>
+               <div class="arrow-block">
+                  <img class="arrow" src="img/arrow.png" alt="Arrow">
+               </div>
             </div>
+
+            <div class="working-info block-style">
+               <div class="line pt-20">
+                  <p><b>Company: </b><span class="red">Infobus</span></p>
+                  <p><b>Duration: </b><span class="green">07/2020 - present time</span></p>
+                  <p><b>Position: </b><span class="red">SysAdmin BusSystem</span></p>
+                  <h4>Responsibilities:</h4>
+                  <ul class="green">
+                     <li>Maintaining the database of the system, filling it, editing</li>
+                     <li>System health monitoring, support for users of the system</li>
+                     <li>Development of projects to improve the database functionality
+                        <br>and transfer for revision to the programmers department
+                     </li>
+                  </ul>
+               </div>
+               <div class="line">
+                  <p><b>Company: </b><span class="red">Lviv Coffee Mining Manufacture</span></p>
+                  <p><b>Duration: </b><span class="green">06/2018 - 07/2020</span></p>
+                  <p><b>Position: </b><span class="red">Barista</span></p>
+               </div>
+               <div class="without-line">
+                  <p><b>Company: </b><span class="red">Lviv Coffee Mining Manufacture</span></p>
+                  <p><b>Duration: </b><span class="green">03/2015 - 05/2018</span></p>
+                  <p><b>Position: </b><span class="red">Waiter</span></p>
+               </div>
+            </div>
+
+            <div class="education-info block-style">
+               <div class="text-item line">
+                  <b>2021 - present time</b>
+                  <p class="red">Information Systems and Technologies (extramural)</p>
+                  <p class="green">Lviv National Agrarian University, Lviv, Ukraine</p>
+               </div>
+               <div class="text-item line">
+                  <b>2014 - 2016</b>
+                  <p class="red">Technologie of Furniture and Wooden Products</p>
+                  <p class="green">Ukrainian National Forestry University, Lviv, Ukraine</p>
+               </div>
+               <div class="text-item without-line">
+                  <b>2011 - 2014</b>
+                  <p class="red">Woodworking Technologies</p>
+                  <p class="green">Kremenets Forestry College, Kremenets, Ukraine</p>
+               </div>
+            </div>
+
+            <div class="skils-info block-style">
+               <div class="skils-block pt-65">
+                  <div class="hard-block">
+                     <h2>Hard skils:</h2>
+                     <ul class="fs-20">
+                        <li class="red">HTML, CSS</li>
+                        <li class="green">JavaScript</li>
+                        <li class="red">NPM</li>
+                        <li class="green">Git, GitHub</li>
+                        <li class="red">Visual Studio Code</li>
+                     </ul>
+                  </div>
+                  <div class="soft-block">
+                     <h2>Soft skils:</h2>
+                     <ul class="fs-20">
+                        <li class="red">Teamwork</li>
+                        <li class="green">Communication</li>
+                        <li class="red">Creativity</li>
+                        <li class="green">Time management</li>
+                        <li class="red">Stress management</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="languages-block pt-65">
+                  <h2>Languages:</h2>
+                  <ul class="fs-20">
+                     <li class="red">English – Pre-Intermediate</li>
+                     <li class="green">Ukraine – Native Speaker</li>
+                     <li class="red">Russian – Native Speaker</li>
+                  </ul>
+               </div>
+            </div>
+
          </main>
 
       </div>
+
    </div>
 
    <script src="script.js"></script>

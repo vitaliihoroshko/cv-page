@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,400&display=swap");
+
 body {
    background-color: #f3f3f3;
-   font-family: "Roboto", sans-serif;
+   font-family: "Nunito", sans-serif;
 }
 
-img {
+.my-photo {
    display: block;
    max-width: 280px;
    max-height: 280px;
@@ -26,31 +28,32 @@ img {
    width: 70%;
 }
 
+.block-style {
+   border-radius: 10px;
+   background: #fff;
+   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+}
+
 .container {
    display: flex;
    flex-direction: column;
    align-items: center;
-   background: #fff;
-   border-radius: 6px;
    min-width: 300px;
    margin-top: 16px;
    margin-right: 30px;
-   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+   padding-bottom: 20px;
 }
 
 .header-list {
    display: flex;
    justify-content: space-evenly;
+   align-items: center;
    padding-inline-start: 0;
 }
 
 header {
-   background: #fff;
-   border-radius: 6px;
    min-width: 450px;
    margin: auto;
-   line-height: 70px;
-   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 }
 
 header ul li {
@@ -72,17 +75,75 @@ header ul li a:hover {
    transition: all ease 0.3s;
 }
 
-.display-info {
-   background: #fff;
-   border-radius: 6px;
+.home-info {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    min-width: 450px;
+   height: 605px;
    margin: 30px auto;
-   line-height: 40px;
-   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+}
+
+.working-info {
+   display: none;
+   min-width: 450px;
+   height: 605px;
+   margin: 30px auto;
+   line-height: 23px;
+}
+
+.education-info {
+   display: none;
+   min-width: 450px;
+   height: 605px;
+   margin: 30px auto;
+   line-height: 38px;
+}
+
+.skils-info {
+   display: none;
+   flex-direction: column;
+   min-width: 450px;
+   height: 605px;
+   margin: 30px auto;
 }
 
 h2 {
    margin: 20;
+}
+
+.icon {
+   height: 30px;
+   width: 30px;
+}
+
+.icon:hover {
+   transform: scale(1.1);
+}
+
+.social-icons {
+   display: flex;
+   justify-content: space-around;
+   width: 200px;
+}
+
+.icon-href {
+   text-decoration: none;
+}
+
+.pdf-icon {
+   height: 60px;
+   width: 60px;
+}
+
+.pdf-icon:hover {
+   animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+   100% {
+      transform: rotate(360deg);
+   }
 }
 
 .contacts {
@@ -90,7 +151,7 @@ h2 {
 }
 
 .contact-element {
-   line-height: 250%;
+   line-height: 300%;
 }
 
 table tr td:first-child {
@@ -106,4 +167,67 @@ table tr td:first-child {
 .contact-link:hover {
    color: #c5002e;
    transition: 0.3s;
+}
+
+.green {
+   color: #408d57;
+}
+
+.red {
+   color: #c5002e;
+}
+
+.m-0 {
+   margin: 0;
+}
+
+.pt-20 {
+   padding-top: 20px;
+}
+
+.pt-65 {
+   padding-top: 65px;
+}
+
+.fs-20 {
+   font-size: 20px;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+.text-item {
+   text-align: center;
+   padding: 20px;
+}
+
+.line {
+   border-bottom: 1px solid #d1d1d1;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.without-line {
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.languages-block {
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.skils-block {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.arrow {
+   height: 300px;
+   width: 300px;
+}
+
+.message {
+   font-size: 30px;
 }
