@@ -1,45 +1,47 @@
-![IntelliStart](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/9668ed322e1a02652a90543b0534dfa4d700ec27/img/team-logo.svg)
+# Wallet ![IntelliStart](https://raw.githubusercontent.com/vitaliihoroshko/intellistart-wallet/957c0227321d861c1c8a049a5aa0743646ee68c1/src/assets/images/wallet-logo.svg)
 
-# Wallet - project of the 6 team [IntelliStart](https://intellias.com/)
+### _Application for personal budget tracking_
 
-Wallet - application for personal budget planning and tracking.
+[![IntelliStart](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/9668ed322e1a02652a90543b0534dfa4d700ec27/img/team-logo.svg)](https://intellistart.intellias.ua/)
 
-In the application you can enter your income and expenses and describe them. This will all be reflected in your private account. The application allows you to analyze where money is spent and whether your expenses do not exceed. 
-It's really convenient!
+> In the application you can enter your
+> income and expenses and describe them.
+> This will all be reflected in your private account.
+> The application allows you to analyze where money is spent
+> and whether your expenses do not exceed. 
+> It's really convenient!
 
-## 1. Main project technologies.
+### _1. Our Team_
 
-- [React.js](https://reactjs.org/)
-- [Redux](https://redux.js.org/)
-- [Axios](https://axios-http.com/)
-- [Sass](https://sass-lang.com/)
-- [Formik](https://formik.org/)
-- [React Router](https://reactrouter.com/)
-- [Chart.js](https://www.chartjs.org/)
-- [React Table](https://react-table.tanstack.com/)
+_Vitalii Horoshko_
+[![Vitalii Horoshko](https://avatars.githubusercontent.com/u/86407713?s=150&v=4)](https://github.com/vitaliihoroshko)
 
-## 2. Our Team
+_Artem Karimov_
+[![Artem Karimov](https://avatars.githubusercontent.com/u/89943101?s=150&v=4)](https://github.com/artemkarimov)
 
-![Vitalii Horoshko](https://avatars.githubusercontent.com/u/86407713?s=150&v=4)
-![Artem Karimov](https://avatars.githubusercontent.com/u/89943101?s=150&v=4)
-![Alina Prokopenko](https://avatars.githubusercontent.com/u/35927892?s=150&v=4)
-![Oleh Yavoriv](https://avatars.githubusercontent.com/u/73217391?s=150&v=4)
-![Ostap Blystsiv](https://avatars.githubusercontent.com/u/64735439?s=150&v=4)
+_Alina Prokopenko_
+[![Alina Prokopenko](https://avatars.githubusercontent.com/u/35927892?s=150&v=4)](https://github.com/achkvch)
 
-## 3. Project Deploy
+_Oleh Yavoriv_
+[![Oleh Yavoriv](https://avatars.githubusercontent.com/u/73217391?s=150&v=4)](https://github.com/OlehYavoriv)
 
-- Our project deployed at [https://github.com/vitaliihoroshko/intellistart-wallet/tree/main](https://github.com/vitaliihoroshko/intellistart-wallet/tree/main)
+_Ostap Blystsiv_
+[![Ostap Blystsiv](https://avatars.githubusercontent.com/u/64735439?s=150&v=4)](https://github.com/ostUp)
 
-## 4. How to start the project locally
+### _2. Main project technologies_
+
+[![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/) [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+
+### _3. How to start the project locally_
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
