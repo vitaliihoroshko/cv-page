@@ -13,19 +13,10 @@
 
 ### _1. Our Team_
 
-_Vitalii Horoshko_
 [![Vitalii Horoshko](https://avatars.githubusercontent.com/u/86407713?s=150&v=4)](https://github.com/vitaliihoroshko)
-
-_Artem Karimov_
 [![Artem Karimov](https://avatars.githubusercontent.com/u/89943101?s=150&v=4)](https://github.com/artemkarimov)
-
-_Alina Prokopenko_
 [![Alina Prokopenko](https://avatars.githubusercontent.com/u/35927892?s=150&v=4)](https://github.com/achkvch)
-
-_Oleh Yavoriv_
 [![Oleh Yavoriv](https://avatars.githubusercontent.com/u/73217391?s=150&v=4)](https://github.com/OlehYavoriv)
-
-_Ostap Blystsiv_
 [![Ostap Blystsiv](https://avatars.githubusercontent.com/u/64735439?s=150&v=4)](https://github.com/ostUp)
 
 ### _2. Main project technologies_
