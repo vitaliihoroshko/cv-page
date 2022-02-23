@@ -10,7 +10,6 @@
 > The application allows you to analyze where money is spent
 > and whether your expenses do not exceed. 
 > It's really convenient!
-
 ### _1. Our Team_
 
 [![Vitalii Horoshko](https://avatars.githubusercontent.com/u/86407713?s=150&v=4)](https://github.com/vitaliihoroshko)
@@ -22,6 +21,7 @@
 ### _2. Main project technologies_
 
 [![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/) [![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![Axios](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/ecdddc3a1718d8e099de1e61d01869ce585ad3eb/img/axios-logo.svg)](https://axios-http.com/) [![Yarn](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/ecdddc3a1718d8e099de1e61d01869ce585ad3eb/img/yarn-logo.svg)](https://yarnpkg.com/) [![Formik](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/ecdddc3a1718d8e099de1e61d01869ce585ad3eb/img/formik-logo.svg)](https://formik.org/) [![Chart.js](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/ecdddc3a1718d8e099de1e61d01869ce585ad3eb/img/chart.js-logo.svg)](https://www.chartjs.org/) [![React Table](https://raw.githubusercontent.com/vitaliihoroshko/cv-page/ecdddc3a1718d8e099de1e61d01869ce585ad3eb/img/react-table-logo.svg)](https://react-table.tanstack.com/)
 
 ### _3. How to start the project locally_
 
