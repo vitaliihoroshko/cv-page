@@ -1,4 +1,4 @@
-# Wallet ![IntelliStart](https://raw.githubusercontent.com/vitaliihoroshko/intellistart-wallet/957c0227321d861c1c8a049a5aa0743646ee68c1/src/assets/images/wallet-logo.svg)
+# Wallet [![IntelliStart](https://raw.githubusercontent.com/vitaliihoroshko/intellistart-wallet/957c0227321d861c1c8a049a5aa0743646ee68c1/src/assets/images/wallet-logo.svg)](https://intellistart-wallet-sixth-team.netlify.app/)
 
 ### _Application for personal budget tracking_
 
